@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(58, 63, 78, 0.945);
+    color:rgb(144, 199, 221);
+    z-index: 999;
+    
+}
+.companyname a {
+    text-decoration: none;
+    color:rgb(144, 199, 221);
+}
+.companyname h1 { 
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.companyinfo {
+    margin-top: 100px;
+}
+.info {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.leftbar{
+    position: relative;
+    width:50%;
+    
+}
+.leftbar img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: auto;
+}
+.rightbar {
+    position: relative;
+    width: 50%;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.rightbar a{
+    text-decoration: none;
+    background-color: rgb(58, 63, 78);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(144, 199, 221);
+    transition: all 0.2s;
+
+}
+.rightbar a:hover {
+background-color: rgb(89, 95, 116);
+} 
+
+.tours {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.section_tours_name {
+    padding-left: 300px;
+}
+.torus_list ul {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.torus_list ul li {
+    display: inline;
+    margin-right: 100px;
+    background-color: rgb(15 155 225);
+    padding: 20px 50px;
+    border-radius: 20px;
+    transition: all 0.2s;
+
+}
+    
+.torus_list ul li a {
+        color: rgb(255 186 1);
+        text-decoration: none;
+        font-weight: bold;      
+}
+
+.torus_list ul li:hover {
+        background-color: rgb(255 186 1);
+}
+.torus_list ul li:hover a{
+    color: rgb(15 155 225);
+}
+.gallery {
+   width: 100%;
+  
+}
+.gallery_items {
+    display: flex;
+    flex-wrap: wrap;   
+}
+.gallery_items img{
+    height: auto;
+    width: 25%;
+    transition: all 0.3;
+    
+}
+.gallery_items img:hover{
+    opacity: 0.8;
+}
+.main_footer {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main_footer ul  {
+    width: 100%;
+    text-align: center;
+
+}
+.main_footer ul li {
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.li_first, .li_second {
+border-right: 2px solid rgba(56, 238, 126, 0.952);
+}
+
+.main_footer li a {
+    background-color:rgb(255 186 1);
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.offer {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.oferta {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.oferta ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.oferta ul li {
+    display: inline;
+    padding-right: 10px;
+
+}
+.oferta li {
+    position: relative;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding:  20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.list_text_1 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.list_text_2 {
+    position: relative;
+    top: -5px;
+    padding: 5px;
+    background-color: rgb(255 186 1);
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.promocja {
+    position: relative;
+    top: 10px;
+    background-color: red;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+}
